@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-main{
+    /* background-color: azure; */
+    height: 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+    position: relative;
+} 
+
+
+.nav-main .menu{
+    width: 20px;
+    
+}
+.logo{
+    /* display: none; */
+}
+
+
+.side{
+    background-color: black;
+    position: absolute;
+    padding: 40px;
+    /* top:80px; */
+    left:0;
+    display: none;
+
+}
+
+.show-menu{
+    background-color: rgb(240, 236, 236);
+    position: absolute;
+    padding: 40px;
+    /* top:80px; */
+    left:0;
+    display: flex;
+    height: 100vh;
+    width: 400px;
+    
+    
+}
+.show-menu ul li{
+    display: block;
+    margin: 20px;
+}
+.show-menu ul li a{
+    color: black;
+  
+    margin: 20px;
+    text-decoration: none;
+}
+.show-menu ul li a:hover{
+    color: red;
+    font: bolder;
+}
+.show-menu ul span{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    color: red;
+    font: bold;
+    cursor: pointer;
+}
+
+
